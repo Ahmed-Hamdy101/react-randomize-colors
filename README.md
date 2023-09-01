@@ -63,7 +63,7 @@ If you have any questions or feedback, please feel free to contact me.
 
 ### Step-by-step explanation of the code
 
-The `App.js` file is the main entry point for the app. It imports the `Signature` component and renders it to the DOM.
+The `App.js` file is the main entry point for the app. It imports the `Randomize` component and renders it to the DOM.
 
 ```js
 import React, { Component } from "react";
