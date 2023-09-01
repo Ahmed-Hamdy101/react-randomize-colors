@@ -1,8 +1,8 @@
 Sure, here is the README.md file for your Random Color React App:
 
-# Signature React App
+# Randomize-color React App
 
-This is a simple React app that demonstrates how to use the Signature component.
+This is a Random React app that demonstrates how to use the change color besed on event.
 
 ## Getting Started
 
