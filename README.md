@@ -1,4 +1,3 @@
-Sure, here is the README.md file for your Random Color React App:
 
 # Randomize-color React App
 
