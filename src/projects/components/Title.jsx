@@ -1,3 +1,4 @@
+
 import React from "react";
 
 export default function Title({ classes, text }) {
@@ -7,3 +8,4 @@ export default function Title({ classes, text }) {
     </h1>
   );
 }
+
