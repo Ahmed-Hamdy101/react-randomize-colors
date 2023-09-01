@@ -1,4 +1,4 @@
-Sure, here is the README.md file for your Signature React App:
+Sure, here is the README.md file for your Random Color React App:
 
 # Signature React App
 
@@ -68,14 +68,15 @@ The `App.js` file is the main entry point for the app. It imports the `Signature
 
 ```js
 import React, { Component } from "react";
-import Signature from "./components/Signature";
+import RandomizeColor from "./components/Signature";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Signature />
+        <RandomizeColor />
       </div>
     );
   }
 }
+```
