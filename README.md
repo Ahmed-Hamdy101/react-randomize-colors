@@ -14,7 +14,7 @@ git clone https://github.com/your-username/signature-react-app.git
 Once you have cloned the repository, open the project directory in your terminal.
 
 ```
-cd signature-react-app
+cd randomize-react-app
 ```
 
 Install the dependencies using npm.
