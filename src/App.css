@@ -1251,6 +1251,7 @@ body, html {
   text-transform: uppercase;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.253);
   text-align: center;
   white-space: nowrap;
 }
@@ -1268,24 +1269,49 @@ body, html {
   color: white;
 }
 .btn-danger:hover {
-  background-color: #000000;
+  background-color: #751919;
     color: rgb(255, 255, 255);
 }
 
 .btn-primary {
   background-color: #3498db;
+
   color: white;
 }
 .btn-primary:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.103);
   background-color: #217dbb;
 }
 
 .btn-secondary {
-  background-color: #e74c3c;
-  color: white;
+  background-color: #fd7e35f8;
+  color: rgb(255, 255, 255);
 }
 .btn-secondary:hover {
-  background-color: #d62c1a;
+  background-color: #1b487c;
+}
+.btn-indigo {
+  background-color: #962b72f8;
+  color: rgb(255, 255, 255);
+}
+.btn-secondary:hover {
+  background-color: #1b487c;
+}
+.btn-indigo {
+  background-color: #962b72f8;
+  color: rgb(255, 255, 255);
+}
+
+.btn-indigo:hover {
+  background-color: #7c1b57;
+}
+.btn-success {
+  background-color: #378a23f8;
+  color: rgb(255, 255, 255);
+}
+
+.btn-success:hover {
+  background-color: #1b7c30;
 }
 
 .card {
@@ -1622,6 +1648,11 @@ body, html {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.d-flex.justify-between {
+  display: flex;
+ flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 .d-grid {
