@@ -1,25 +1,36 @@
-<<<<<<< HEAD
+
 import React from 'react'
 import Title from "../components/Title";
 export default function Randomize_colors(){
+
+  const handler = (e)=>{
+    let body = document.querySelector("body");
+    body.style.backgroundColor = getColor();
+    e.target.style.backgroundColor = getColor()
+  }
+  const getColor = ()=>{
+  let letter = "123456789ABCDFEGHI"
+  let color = "#"
+  for (let i = 0; i < 6; i++) {
+    color += letter[Math.floor(Math.random() * 16)]
+  } 
+  return color ;
+  }
+
   return (
     <div className='container'>
     <Title text={"Random-colors"} classes={"mb-4"}/>
-    <button className='btn btn-danger'>click</button>
+    <div className="" style={{ display:'flex',justifyContent:'space-between',flexDirection:'row' }}>
+    <button className='btn btn-danger' onClick={handler}>Danger</button>
+    <button className='btn btn-secondary m-right-2 m-left-2'>Info</button>
+    <button className='btn btn-primary m-right-2 m-left-2'>Primary</button>
+    <button className='btn btn-success m-right-2 m-left-2'>Success</button>
+    <button className='btn btn-indigo'>indigo</button>
+    </div>
     </div>
 
   )
 }
-=======
-import React from 'react'
-import Title from "../components/Title";
-export default function Randomize_colors(){
-  return (
-    <div className='container'>
-    <Title text={"Random-colors"} classes={"mb-4"}/>
-    <button className='btn btn-danger'>click</button>
-    </div>
 
-  )
-}
->>>>>>> 902d856 (add src ✔)
+
+
