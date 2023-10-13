@@ -20,12 +20,12 @@ export default function Randomize_colors(){
   return (
     <div className='container'>
     <Title text={"Random-colors"} classes={"mb-4"}/>
-    <div className="" style={{ display:'flex',justifyContent:'space-between',flexDirection:'row' }}>
+    <div className="" style={{ display:'flex',justifyContent:'space-between',flexDirection:'row'  }}>
     <button className='btn btn-danger' onClick={handler}>Danger</button>
-    <button className='btn btn-secondary m-right-2 m-left-2'>Info</button>
-    <button className='btn btn-primary m-right-2 m-left-2'>Primary</button>
-    <button className='btn btn-success m-right-2 m-left-2'>Success</button>
-    <button className='btn btn-indigo'>indigo</button>
+    <button className='btn btn-secondary m-right-2 m-left-2' onClick={handler}>Info</button>
+    <button className='btn btn-primary m-right-2 m-left-2' onClick={handler}>Primary</button>
+    <button className='btn btn-success m-right-2 m-left-2' onClick={handler}>Success</button>
+    <button className='btn btn-indigo' onClick={handler}>indigo</button>
     </div>
     </div>
 
