@@ -1,6 +1,6 @@
 
+[]()
 # Randomize-color React App
-
 This is a Random React app that demonstrates how to use the change color besed on event.
 
 ## Getting Started
